@@ -1,0 +1,45 @@
+
+PJ
+Login with username olimpinf and password atgcbq
+
+P1
+Login with username olimpinf and password bhoknj
+
+P2
+Login with username olimpinf and password jwydny
+
+PS
+Login with username olimpinf and password bwbyki
+
+
+
+
+tivemos um problema no banco de dados no início da prova e TODAS as senhas foram re-geradas. É preciso baixar novamente as senhas da prova. Foram re-geradas hoje 08:40. Colocamos em "Notícia para Coordenadores" na página de coordenação, mas não deu tempo de enviar mensagem de email ainda 🙁
+
+
+
+1) por favor baixe as senhas novamente.
+2) verifique que o link da prova está correto (não é o site da OBI).
+Veja informações na página de coordenação, link "Aplicação da Prova",
+seção Fase 1.
+
+O link da prova é algo como https://p1.provas.ic.unicamp.br (diferente
+para cada nível)
+
+
+
+As soluções são testadas com muitas entradas, diferentes das mostradas no enunciado (algumas grandes!).
+Revise suas soluções com cuidado. Teste localmente com testes que você mesmo tenha construído, similares aos mostrados no enunciado. Se você não está ganhando os pontos correspondentes é porque sua solução está incorreta. Veja na Folha de Informações (menu Visão Geral) informações sobre como a correção é feita, e como deve ser a entrada e saída de seus programas.
+
+A subtarefa 1 vale 0 pontos. No entanto você pode ver o resultado (se a resposta foi correta) clicando no link "Detalhes" de cada submissão. 
+
+Código de retorno é a forma como o sistema operacional informa se o programa executado deu erro ou não. Quando não há erro o valor é zero. Quando há erro, o código de retorno pode indicar o tipo de erro (acesso inválido a memória, tamanho da pilha de execução excedido, divisão por zero, etc). Mas nem sempre o corretor consegue determinar a causa do erro, por isso essa mensagem genérica (e meio confusa, é verdade). Significa que seu programa terminou prematuramente por erro de execução.
+
+-----
+Por favor envie uma planilha com as pontuações. A planilha deve ter os seguintes campos, na ordem dada:
+
+Num. Inscr.: número de inscrição.
+Nível: deve ser IJ (iniciação júnior), I1 (iniciação 1) ou I2 (iniciação 2).
+Pontos: Pontos (cada questão certa vale um ponto)
+
+Opcionalmente, se deseja utilizar a correção automatizada, digitalize as folhas de respostas com um escaner de mesa (para não ter distorções na imagem) e envie os arquivos, separados em níveis dos competidores (IJ, I1 e I2).

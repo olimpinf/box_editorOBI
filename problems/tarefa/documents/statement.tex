@@ -1,0 +1,48 @@
+% To add an image or include a .tex file you need to add
+% \CWD
+% to the relative (to the main document) path.
+%
+% Example:
+% \begin{figure}
+%   \centering
+%   \includegraphics{\CWD/images/example.pdf}
+% \end{figure}
+
+Nesta tarefa, dados três números inteiros $N$, $M$ e $S$ você deve escrever um programa para determinar
+o maior número inteiro $I$ tal que
+
+\begin{itemize}
+\item $I$ está dentro do intervalo $[N, M]$ (ou seja,  $I \ge N$ e $I \le M$).
+\item A soma dos dígitos de $I$ é igual a $S$.
+\end{itemize}
+
+%
+% For input, use one of the following
+%
+\inputdesc{A primeira linha contém um inteiro $N$, o menor valor do
+  intervalo.  A segunda linha contém um inteiro $M$, o maior valor do
+  intervalo.  A terceira linha contém um inteiro $S$, o valor da soma
+  dos dígitos, conforme descrito.}
+
+% For output, use one of the following
+%
+
+\outputdesc{Seu programa deve produzir uma única linha, contendo um único
+  inteiro, que deve ser o valor de $I$ obedecendo às restrições acima, ou
+  $-1$ se não existir.}
+
+\subsection*{Restrições}
+\begin{itemize}
+\item $1 \leq N \leq M \leq 10\ 000$
+\item $1 \leq S \leq 36$
+\end{itemize}
+
+\subsection*{Informações sobre a pontuação}
+\begin{itemize}
+\item Para um conjunto de casos de testes valendo 10 pontos, $M \le 100$.
+\end{itemize}
+
+%\sampleio will look for files named sample-n.in and sample-n.sol (where n is 1, 2, 3...)
+%in the documents directory and include them as samples.
+
+\sampleio

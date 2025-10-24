@@ -1,0 +1,13 @@
+name: "tarefa"
+title: "Tarefa 1"
+memory_limit: 1024
+time_limit: 0.1
+token_mode: disabled
+public_testcases: all
+primary_language: "pt"
+infile: ""
+outfile: ""
+public_testcases: "all"
+max_submission_number: 50
+score_mode: "max_subtask"
+min_submission_interval: 60

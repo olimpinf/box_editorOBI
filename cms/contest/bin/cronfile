@@ -1,0 +1,4 @@
+* * * * * /home/cms/bin/clean_cms_cache.sh > /tmp/LOG_CRON 2>&1
+
+# temporary fixes
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * /home/cms/cms_venv/box_obi2025/prog/fase-1/cms/contest/bin/fix_users.sh pj >> /dev/null 2>&1

@@ -1,0 +1,84 @@
+To generate a CMS contest from box files you need to provide some
+extra files:
+
+1) In the "attic" directory of each problem, create a file called
+"cms.txt" containing the title for the problem (string, utf-8),
+limit (in MB) and public testcases (string).
+
+Example:
+------------------------
+title = "Conto de Fadas"
+memory_limit = 1024
+time_limit = 2
+public_testcases = "0, 1, 2, 3"
+------------------------
+
+Notes:
+  * If memory_limit is not given, the default is 1024
+  * if public_testcases is not given, the default is all tests from first
+     group; use "all" to  make all testcases public
+  * Other variables that can be set in the CMS file "task.yaml" can also
+    be defined, and will be copied to the task file "task.yams".
+
+2) In the "cms" directory create a file "users.csv" with the users of the contest
+in the CSV format. The file must contain at least the fields
+
+   user_id,password,ip.
+
+Fields first_name and last_name are optional.
+
+Example:
+------------------------
+user_id,password,ip,first_name,last_name
+012345-0,p1,null,João Luís,Santos
+------------------------
+
+Notes:
+   * If the password starts with "pbkdf2" it is assumed it is a hashed password
+     using the pbkdf2 algorithm (used in the OBI site).
+
+3) In the "cms" directory, create a file "contest.txt" describing the contest. An
+example of its contents is given below:
+
+------------------------
+####################################
+# configuration file for the contest
+####################################
+
+# short name of the contest -- cannot contain spaces!
+name = "prova"
+
+# description, to be displayed in the contest page header
+description = "Uma Prova"
+
+# contest date and time
+start = "2021-03-10 07:00:00 -03:00"
+stop = "2021-03-30 07:00:00 -03:00"
+
+# per_user_time -- if set, contestants can start any time
+# and use this amount of time (in seconds)
+# for example, for 2 hours, set it to 60*60*2
+per_user_time = 60*60*5
+
+# tokens
+token_mode =  "disabled"
+
+# submissions
+min_submission_interval = 60
+max_submission_number = 100
+min_user_test_interval = 60
+max_user_test_number = 50
+------------------------
+
+Notes:
+   * Any other variable that can be defined in the CMS file "contest.yaml" can be
+     set, and will be copied to the contest file "contest.yaml".
+
+Then, to produce the CMS package:
+
+* run "box check" in the "problems" directory (or run "box check" for each problem)
+* cd to the "cms" directory
+* run "../../bin/build_cms.py -u users.csv contest.txt
+
+A new directory with the CMS package will be created.
+

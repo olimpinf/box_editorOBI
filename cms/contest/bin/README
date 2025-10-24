@@ -1,0 +1,4 @@
+As a user with sudo, do:
+
+sudo crontab /home/cms/cronfile
+

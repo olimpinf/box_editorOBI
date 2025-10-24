@@ -1,0 +1,16 @@
+1) Create a machine file
+2) build the configuration file
+./build_cms_machines_config.py pj > cms_pj.conf
+
+3) sync the configuration file to all machines
+
+copy files:
+./sync_conf.py pj cms_pj.conf 
+
+or
+
+copy and start tmux cms:
+./sync_conf.py -s pj cms_pj.conf 
+
+list tmux 
+./sync_conf.py -l pj cms_pj.conf 

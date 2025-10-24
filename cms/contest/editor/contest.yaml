@@ -1,0 +1,22 @@
+name: "editor"
+description: "EditorOBI"
+problems: "['tarefa', 'hashedName-d8724aa0b88f985f11']"
+start: 1758970800
+stop: 1758985200
+per_user_time: 14400
+token_mode: "disabled"
+min_submission_interval: 60
+tasks:
+  - "tarefa"
+  - "hashedName-d8724aa0b88f985f11"
+users:
+  - username: "00000-A"
+    password: "tarefa-forte-pilha-fraca"
+    ip: null
+    first_name: "Competidor"
+    last_name: "Teste 1"
+  - username: "00001-B"
+    password: "tarefa-forte-pilha-fraca"
+    ip: null
+    first_name: "Competidor"
+    last_name: "Teste 2"

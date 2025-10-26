@@ -1,0 +1,17 @@
+problem.desc
+*.class
+*.exe
+*.jexe
+*~
+*.pyc
+*.swp
+*.aux
+*.log
+*.out
+*.zip
+.DS_Store
+*.pdf
+*.exe
+*.tmp
+build/
+corpo.tex

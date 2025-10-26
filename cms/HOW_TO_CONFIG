@@ -1,0 +1,5 @@
+in admin:
+
+set allow user tests
+set IP based autologin
+set user 00000-A unrestricted participation, IP address or subnet 127.0.0.1
